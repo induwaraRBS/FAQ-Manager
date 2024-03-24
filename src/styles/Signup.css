@@ -1,0 +1,60 @@
+.container {
+  margin-top: 80px;
+  padding-top: 50px;
+}
+
+.Back_Button {
+  margin-bottom: 20px;
+}
+
+.Signup_Left_Section {
+  flex: 1;
+  height: auto;
+}
+
+.Signup_Right_Section {
+  flex: 1;
+  border: 2px solid blue;
+}
+
+.Signup_Left_Section > img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: block;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.textField {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.Signup_Page {
+  max-width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .Signup_Page {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+  .Back_Button {
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+}

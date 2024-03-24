@@ -1,0 +1,43 @@
+.Navbar {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+}
+.Left_Section {
+  margin-left: 20px;
+}
+
+.Middle_Section {
+  margin-top: 8px;
+  margin-left: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Right_Section {
+  margin-top: 8px;
+  margin-left: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Left_Section,
+  .Right_Section {
+    margin: 8px 0;
+  }
+
+  .Middle_Section {
+    margin: 8px 0;
+    order: 2;
+  }
+
+  .Right_Section {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,42 @@
+.Search_Bar {
+  margin: 0 auto;
+  display: flex;
+  padding: 10px 30px;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  max-width: 90%;
+  border-radius: 5px;
+}
+.Search_Left_Section {
+  flex: 1;
+  margin-right: 20px;
+  background-color: rgba(187, 193, 241, 0.603);
+}
+
+.Search_Right_Section {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Search_Bar {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Search_Left_Section {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .Search_Right_Section {
+    width: 100%;
+  }
+  .Search_Right_Section Button {
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,20 @@
+.Table_Page {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-top: 40px;
+  max-width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Table {
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .Table {
+    overflow-x: auto;
+  }
+
+  .Table_Page {
+    padding: 10px;
+  }
+}
